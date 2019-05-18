@@ -20,7 +20,7 @@ class M_login extends CI_Model {
 		}
 		else
 		{
-			$this->session->set_flashdata('info','maaf username atau password anda salah');
+			$this->session->set_flashdata('info2','maaf username atau password anda salah');
 			redirect('login');
 			
 		}

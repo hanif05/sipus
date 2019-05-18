@@ -6,8 +6,8 @@
 		<i class="ace-icon fa fa-check green"></i>
 			Selamat datang di
 		<strong class="green">	
-			Sistem Informasi Karyawan
-		<small>(v1.0). Aplikasi ini dibuat untuk Memenuhi salah satu tugas Web Programming II </small>
+			Sistem Informasi Perpustakaan
+		<small>(v1.0). Aplikasi ini dibuat untuk melakukan memanajeman perpustakaan Sekolah Dasar Negeri Langensari </small>
 		</strong>
 		
 </div>

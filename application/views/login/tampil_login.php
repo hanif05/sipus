@@ -30,7 +30,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?php echo base_url();?>"><b>Sisfo</b>Karyawan</a>
+    <a href="<?php echo base_url();?>"><b>Sisfo</b>Perpustakaan</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -38,14 +38,14 @@
 
     <form action="<?php echo base_url();?>login/getlogin" method="post">
       <div class="form-group has-feedback">
-        <input type="text" name="username" id="username" class="form-control" placeholder="Username">
+        <input type="text" name="username" id="username" class="form-control" placeholder="Username" required="">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+        <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         <?php
-        $info = $this->session->flashdata('info');
+        $info = $this->session->flashdata('info2');
           if(!empty($info)){
              echo $info; 
           }

@@ -11,6 +11,7 @@
 		<!-- bootstrap & fontawesome -->
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+		<link href="<?php echo base_URL();?>assets/css/bootstrap.css" rel="stylesheet">
 
 		<!-- page specific plugin styles -->
 
@@ -25,6 +26,17 @@
 		<![endif]-->
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/ace-skins.min.css" />
 		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/ace-rtl.min.css" />
+		<!-- Boostrap alternative-->
+
+		
+
+
+	    
+	    
+	    
+	    
+	    <script src="<?=base_URL()?>aset/js/bootstrap-modal.js"></script>
+	    	<!-- Boostrap alternative-->
 
 
 		<!-- ace settings handler -->
@@ -61,7 +73,7 @@
 					<a href="<?php echo base_url();?>home" class="navbar-brand">
 						<small>
 							
-							Sistem Infomasi Karyawan
+							SIPUS SDN LANGENSARI
 						</small>
 					</a>
 				</div>
@@ -221,33 +233,7 @@
 				</script>
 
 				<div class="sidebar-shortcuts" id="sidebar-shortcuts">
-					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
-						<button class="btn btn-success">
-							<i class="ace-icon fa fa-signal"></i>
-						</button>
-
-						<button class="btn btn-info">
-							<i class="ace-icon fa fa-pencil"></i>
-						</button>
-
-						<button class="btn btn-warning">
-							<i class="ace-icon fa fa-users"></i>
-						</button>
-
-						<button class="btn btn-danger">
-							<i class="ace-icon fa fa-cogs"></i>
-						</button>
-					</div>
-
-					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
-						<span class="btn btn-success"></span>
-
-						<span class="btn btn-info"></span>
-
-						<span class="btn btn-warning"></span>
-
-						<span class="btn btn-danger"></span>
-					</div>
+					<img src="<?=base_URL()?>asset1/img/<?=$q_perpus->logo?>"  style="width: 200px; height: 150px; display: inline; margin: 5px 0 5px 0">
 				</div><!-- /.sidebar-shortcuts -->
 				<!-- nav-list-->
 				<?php $this->load->view('home/tampil_navigasi');?>
@@ -267,6 +253,7 @@
 								<a href="#"><?php echo $judul;?></a>
 							</li>
 							<li class="active"><?php echo $subjudul;?></li>
+							<li class="active"><?php echo $subjudul2;?></li>
 						</ul><!-- /.breadcrumb -->
 
 						
@@ -346,6 +333,8 @@
 								<small>
 									<i class="ace-icon fa fa-angle-double-right"></i>
 									<?php echo $subjudul; ?>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									<?php echo $subjudul2; ?>
 								</small>
 							</h1>
 						</div><!-- /.page-header -->
@@ -365,8 +354,8 @@
 				<div class="footer-inner">
 					<div class="footer-content">
 						<span class="bigger-120">
-							<span class="blue bolder">Sisfo</span>
-							Karyawan &copy; 2018 | MI 12.6A.16
+							<span class="blue bolder">SIPUS</span>
+							(Sistem Informasi Perpustakaan) &copy; 2018 | SDN LANGENSARI
 						</span>
 
 						&nbsp; &nbsp;
